@@ -8,10 +8,15 @@ body{
    display: flex;
    align-items: center;
    justify-content: center;
-   
 }
-.tituloNome{
-    display: inline;
+.nome{
+  position: absolute;
+  top: 180px;
+  left: 150px;
+  font-family: monospace;
+  font-size: 25px;
+  font-weight: 100;
+  letter-spacing: 3px;
 }
 #titulo{
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -45,4 +50,41 @@ body{
   border-radius: 50%;
   background-color: black;
   transform: translateX(-60px);
+}
+.github{
+  display: flex;
+  font-family: monospace;
+  font-size: 20px;
+  margin-left: 140px;
+}
+#imgGithub{
+  background-image: url("/assets/img/github.png");
+  width: 50px;
+  height: 50px;
+  background-color: antiquewhite;
+  background-size: cover;
+  border-radius: 30px;
+  margin-right: 20px;
+}
+.verMais{
+  display: flex;
+}
+.linha{
+  width: 35%;
+  color: aliceblue;
+  height: 0.1px;
+}
+.btnVerMais{
+  color: antiquewhite;
+  font-family: monospace;
+  font-size: 15px;
+  letter-spacing: 2px;
+}
+.seta{
+  position: absolute;
+  top: 690px;
+  left: 755px;
+  font-size: 24px;
+  text-decoration: none;
+  color: antiquewhite;
 }

@@ -3,6 +3,7 @@ body{
     color: antiquewhite;
     margin: 0;
     padding: 0;
+    overflow-x: hidden;
 }
 .tituloFoto{
    display: flex;
@@ -87,4 +88,82 @@ body{
   font-size: 24px;
   text-decoration: none;
   color: antiquewhite;
+}
+.sobreMim{
+  margin-left: 90px;
+}
+#tituloSobre{
+  margin-top: 100px;
+  font-family: monospace;
+  font-size: 70px;
+  letter-spacing: 2px;
+  font-weight: bolder;
+}
+.textoSobre{
+  font-family: monospace;
+  font-size: 30px;
+  margin-top: 30px;
+}
+.tituloConhecimentos{
+  margin-top: 100px;
+  margin-bottom: 60px;
+  font-family: monospace;
+  font-size: 70px;
+  font-weight: bolder;
+}
+.conhecimentos{
+  margin-left: 90px;
+  width: 100%;
+}
+.imagensConhecimentos{
+  display:block;
+  margin: 0;
+}
+.img{
+  width: 150px;
+  height: 150px;
+  background-size:cover;
+}
+.cardConhecimentos{
+  width: 300px;
+  height: 350px;
+  display: inline-block;
+  margin-right: 10px;
+  margin-left: 10px;
+  justify-content: center;
+  align-items: center;
+}
+.nomeConhecimento{
+  font-family: monospace;
+  font-size: 30px;
+  margin-top: 20px;
+  text-align: center;
+  width: 50%;
+}
+#imgCSharp{
+  background-image: url("/assets/img/cSharp.png");
+}
+#imgJava{
+  background-image: url("/assets/img/java.png");
+}
+#imgC{
+  background-image: url("/assets/img/c.png");
+  height: 170px;
+}
+#imgWeb{
+  background-image: url("/assets/img/web.png");
+  width: 400px;
+}
+#imgMySql{
+  background-image: url("/assets/img/mysql.png");
+}
+#imgFigma{
+  background-image: url("/assets/img/figma.png");
+  height: 150px;
+  width: 100px;
+}
+#imgGit{
+  background-image: url("/assets/img/github.png");
+  background-color: antiquewhite;
+  border-radius: 100%;
 }
